@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-Networking.Plugins", "Unity-Networking.Plugins.csproj", "{505454E3-1D18-1388-2856-44E991DF42BB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-Networking", "Unity-Networking.csproj", "{2AF5460C-A0C8-DF90-A96E-E2DCB621D5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-Networking.Editor.Plugins", "Unity-Networking.Editor.Plugins.csproj", "{203BCAD6-A2A4-0C6B-9473-352A38EDF547}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505454E3-1D18-1388-2856-44E991DF42BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505454E3-1D18-1388-2856-44E991DF42BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505454E3-1D18-1388-2856-44E991DF42BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505454E3-1D18-1388-2856-44E991DF42BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2AF5460C-A0C8-DF90-A96E-E2DCB621D5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2AF5460C-A0C8-DF90-A96E-E2DCB621D5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF5460C-A0C8-DF90-A96E-E2DCB621D5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF5460C-A0C8-DF90-A96E-E2DCB621D5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203BCAD6-A2A4-0C6B-9473-352A38EDF547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203BCAD6-A2A4-0C6B-9473-352A38EDF547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203BCAD6-A2A4-0C6B-9473-352A38EDF547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203BCAD6-A2A4-0C6B-9473-352A38EDF547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
